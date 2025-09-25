@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_2"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-25 03:21:33 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDM6MTc6MzkgUE07MjUyOQ=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDM6MjE6MzMgUE07MTsyNjI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="S" type="Real" array="False" size=""/>
+            <output expression="&quot;c&#7841;nh h&#236;nh tam gi&#225;c&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <output expression="&quot;chi&#7873;u cao h&#236;nh tam gi&#225;c&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="S" expression="1/2*(a*h)"/>
+            <output expression="&quot;di&#7879;n t&#237;ch h&#236;nh tam gi&#225;c l&#224; &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
