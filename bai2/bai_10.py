@@ -1,0 +1,5 @@
+s = input("Nhập một xâu ký tự: ")
+lst = s.split()
+print("Danh sách sau khi split:", lst)
+result = "-".join(lst)
+print("Kết quả sau khi join:", result)
